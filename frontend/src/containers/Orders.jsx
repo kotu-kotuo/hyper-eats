@@ -23,7 +23,7 @@ import {
 
 
 // images
-import MainLogo from '../images/logo.png';
+import MainLogo from '../images/hypereats2.png';
 
 // constants
 import { REQUEST_STATE } from '../constants';
@@ -31,11 +31,11 @@ import { REQUEST_STATE } from '../constants';
 const HeaderWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
-  padding: 8px 32px;
+  padding: 20px 320px;
 `;
 
 const MainLogoImage = styled.img`
-  height: 90px;
+  height: 120px;
 `;
 
 const OrderListWrapper = styled.div`

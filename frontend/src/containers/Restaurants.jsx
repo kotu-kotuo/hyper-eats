@@ -20,32 +20,35 @@ import {
 import { REQUEST_STATE } from '../constants';
 
 // images
-import MainLogo from '../images/logo.png';
-import MainCoverImage from '../images/main-cover-image.png';
+import MainLogo from '../images/hypereats2.png';
+import MainCoverImage from '../images/mv.png';
 import RestaurantImage from '../images/restaurant-image.jpg';
 
 const HeaderWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
-  padding: 8px 32px;
+  padding: 20px 320px;
 `;
 
 const MainLogoImage = styled.img`
-  height: 90px;
+  height: 120px;
 `
 
 const MainCoverImageWrapper = styled.div`
   text-align: center;
+
 `;
 
 const MainCover = styled.img`
   height: 600px;
+  margin-top: -20px;
 `;
 
 const RestaurantsContentsList = styled.div`
   display: flex;
   justify-content: space-around;
   margin-bottom: 150px;
+  margin-top: 100px;
 `;
 
 const RestaurantsContentWrapper = styled.div`
