@@ -20,7 +20,7 @@ import { fetchFoods } from '../apis/foods';
 import { postLineFoods, replaceLineFoods } from '../apis/line_foods';
 
 // images
-import MainLogo from '../images/logo.png';
+import MainLogo from '../images/hypereats2.png';
 import { FoodOrderDialog } from '../components/FoodOrderDialog';
 import FoodImage from '../images/food-image.jpg';
 
@@ -32,7 +32,7 @@ import { REQUEST_STATE } from '../constants';
 const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 8px 32px;
+  padding: 20px 320px;
 `;
 
 const BagIconWrapper = styled.div`
@@ -44,7 +44,7 @@ const ColoredBagIcon = styled(LocalMallIcon)`
 `;
 
 const MainLogoImage = styled.img`
-  height: 90px;
+  height: 120px;
 `
 
 const FoodsList = styled.div`
